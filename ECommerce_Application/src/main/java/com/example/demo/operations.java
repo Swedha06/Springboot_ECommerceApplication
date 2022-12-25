@@ -39,7 +39,7 @@ public String save(@RequestBody ecommerce ecommerce1)
 	return "Products Added successfully";
 }
 
-@GetMapping("/ecoomerce")
+@GetMapping("/ecommerce")
 public List<ecommerce> getAllproducts()
 {
 	return ob.findAll();
